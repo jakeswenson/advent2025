@@ -12,6 +12,7 @@ let runDay day =
         printfn "  Part 2: %s" (Days.Day02.part2 ())
     | 3 -> Days.Day03.day03.Answer()
     | 4 -> Days.Day04.day04.Answer()
+    | 5 -> Days.Day05.day05.Answer()
     | _ ->
         printfn "Day %d not implemented" day
 
