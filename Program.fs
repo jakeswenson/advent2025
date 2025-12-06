@@ -13,6 +13,7 @@ let runDay day =
     | 3 -> Days.Day03.day03.Answer()
     | 4 -> Days.Day04.day04.Answer()
     | 5 -> Days.Day05.day05.Answer()
+    | 6 -> Days.Day06.day06.Answer()
     | _ ->
         printfn "Day %d not implemented" day
 
